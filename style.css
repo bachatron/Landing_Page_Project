@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 *{
     border:  red solid 1px;
     /*background-color: rgb(0, 40, 40);*/
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
 /* TOP SECTION */
@@ -74,15 +76,61 @@ p, h1, button{
 
 /* START MIDDLE PART */
 
-.center_part {
+.center_part > div.information {
     margin: 0px 401px;
 }
 
+.center_part h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.center_part .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 66px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.center_part h1, .boxes p{
+    color: #1f2937;
+}
+
+.boxes div {
+    width: 167px;
+}
+
+.quote_space {
+    background-color: #e5e7eb;
+    padding: 30px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    font-weight: 300;
+    padding: 0px 75px;
+}
+
+.quote_space .author {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
 
 /* END OF MIDDLE PART */
 
 /* START LOWER PART */
 
 .lower_part {
-    margin: 0px 401px;
 }
