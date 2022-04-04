@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 *{
-    border:  red solid 1px;
+    /*border:  red solid 1px;
     /*background-color: rgb(0, 40, 40);*/
     font-family: 'Roboto', sans-serif;;
 }
 
 /* TOP SECTION */
 
+body {
+    margin: auto;
+}
+
 .upper_part{
     background-color: #1f2937;
-
 }
 
 .upper_part ul {
@@ -62,13 +65,13 @@ p, h1, button{
     color: #e5e7eb;
 }
 
-.main_banner button {
+button {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 6px 35px;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     border-style: none;
 }
 
@@ -120,6 +123,7 @@ p, h1, button{
     text-align: left;
     font-weight: 300;
     padding: 0px 75px;
+    margin-top: 50px;
 }
 
 .quote_space .author {
@@ -132,5 +136,36 @@ p, h1, button{
 
 /* START LOWER PART */
 
-.lower_part {
+
+.lower_part .sign_up_banner {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    margin: 60px 401px;
+    display: flex;
+    border-radius: 7px;
 }
+
+.lower_part h2, .lower_part p {
+    margin: 0px;
+}
+
+.sign_up_banner > div {
+    margin-right: auto;
+    color: #f9faf8;
+}
+
+.lower_part button{
+    border: 2px solid white;
+}
+
+.lower_part .footer {
+    background-color: #1f2937;
+    padding: 40px 0px;
+    font-size: 18px;
+    text-align: center;
+    color: #e5e7eb;
+    font-weight: 500;
+
+}
+
+/* END OF LOWER PART */
